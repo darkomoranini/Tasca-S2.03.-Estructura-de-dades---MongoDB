@@ -1,53 +1,6 @@
 # Tasca-S2.03.-Estructura-de-dades---MongoDB // niveles 1, 2 y 3
 
 
-OPTICA
-
-Contenido de la colección: Gafas
-{
-	"_id" : ObjectId("64a02d023388789a0aa27a6d"),
-	"proveedor" : "Proveedor 1",
-	"marca" : "Marca 1",
-	"graduacion" : "2.0",
-	"tipo_montura" : "flotante",
-	"color_montura" : "negro",
-	"color_vidrio" : "transparente",
-	"precio" : 100.5
-}
-------------------------------------
-Contenido de la colección: clientes
-{
-	"_id" : ObjectId("64a02e453388789a0aa27a6e"),
-	"nombre" : "Nombre del cliente",
-	"direccion_postal" : "Direccion del cliente",
-	"telefono" : "Telefono del cliente",
-	"email" : "Email del cliente",
-	"fecha_de_registro" : ISODate("2023-07-01T00:00:00Z"),
-	"cliente_recomendador" : "Cliente que lo recomendo",
-	"empleado_venta" : "Empleado que vendio las gafas"
-}
-------------------------------------
-Contenido de la colección: proveedores
-{
-	"_id" : ObjectId("64a02c7e3388789a0aa27a6c"),
-	"nombre" : "Proveedor 1",
-	"direccion" : {
-		"calle" : "Calle 1",
-		"numero" : 123,
-		"piso" : "1A",
-		"puerta" : "B",
-		"ciudad" : "Ciudad 1",
-		"codigo_postal" : "12345",
-		"pais" : "País 1"
-	},
-	"telefono" : "123456789",
-	"fax" : "987654321",
-	"nif" : "12345678A"
-}
-------------------------------------
-
-
-
 PIZZERIA
 
 Contenido de la colección: categoria
