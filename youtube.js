@@ -1,0 +1,9 @@
+var Canal = [{"_id":{"$oid":"64a1232b0f75bcf5274768f7"},"nombre":"Bases de Datos","descripcion":"programacion orientada a bases de datos","fecha_creacion":"2020-07-01T00:00:00.000Z"}];
+var Etiqueta = [{"_id":{"$oid":"64a1204d0f75bcf5274768f5"},"nombre":"New"}];
+var Like_Dislike = [{"_id":{"$oid":"64a124c00f75bcf5274768f9"},"usuario_id":"64a11f170f75bcf5274768f4","video_id":"64a122300f75bcf5274768f6","tipo":"like","fecha_hora":"2023-07-01T03:00:00.000Z"}];
+var Suscripcion = [{"_id":{"$oid":"64a123df0f75bcf5274768f8"},"usuario_id":"64a11f170f75bcf5274768f4","canal_id":"64a1232b0f75bcf5274768f7"}];
+var Usuario = [{"_id":{"$oid":"64a11f170f75bcf5274768f4"},"email":"dv@gmail.com","password":"xxxxx","nombreUsuario":"dv23002","fecha_nacimiento":"1990-01-02T00:00:00.000Z","sexo":"femenino","pais":"Italia","codigo_postal":"41098"}];
+var Video = [{"_id":{"$oid":"64a122300f75bcf5274768f6"},"titulo":"Mongo db para principiantes","descripcion":"tutorial para aprender las bases de monogodb","size":"50 mb","archivo_video":"mongo_db.mp4","duracion":"2.50 min","thumbnail":"url","reproducciones":"5","likes":"2","dislikes":"0","estado":"publico","etiqueta_id":"64a1204d0f75bcf5274768f5","usuario_id":"64a11f170f75bcf5274768f4","fecha_hora_publicacion":"2023-07-01T12:00:00.000Z"}];
+var comentario = [{"_id":{"$oid":"64a127680f75bcf5274768fb"},"texto":"Gracias por este contenido","fecha_hora":"2023-07-01T01:30:00.000Z","video_id":"64a122300f75bcf5274768f6","usuario_id":"64a11f170f75bcf5274768f4"}];
+var comentario_like_dislike = [{"_id":{"$oid":"64a1285b0f75bcf5274768fc"},"usuario_id":"64a11f170f75bcf5274768f4","comentario_id":"64a127680f75bcf5274768fb","tipo":"like","fecha_hora":"2023-07-01T01:42:00.000Z"}];
+var playlist = [{"_id":{"$oid":"64a125ab0f75bcf5274768fa"},"nombre":"playlist1","fecha_creacion":"2023-06-04T12:00:00.000Z","estado":"publica","video_id":"64a122300f75bcf5274768f6"}];
