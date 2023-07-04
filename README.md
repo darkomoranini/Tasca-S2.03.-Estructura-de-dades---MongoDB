@@ -1,7 +1,94 @@
 # Tasca-S2.03.-Estructura-de-dades---MongoDB // niveles 1, 2 y 3
 
 
-PIZZERIA
+
+OPTICA:
+
+Colección: cliente
+{
+	"_id" : ObjectId("64a3f14c82af6cb5a902c6a5"),
+	"nombre" : "Ignacio",
+	"direccion" : "calle xx numero 2, 07882. Madrid",
+	"telefono" : "637493826",
+	"email" : "ignacio@gmail.com",
+	"fecha_registro" : ISODate("2022-01-01T00:00:00Z")
+}
+{
+	"_id" : ObjectId("64a3f14c82af6cb5a902c6a6"),
+	"nombre" : "Laura",
+	"direccion" : "calle yy numero 57, 89665. Madrid",
+	"telefono" : "648372625",
+	"email" : "laura@gmail.com",
+	"fecha_registro" : ISODate("2022-03-07T00:00:00Z"),
+	"recomendacion_cliente" : "Ignacio"
+}
+-----------------------
+Colección: empleado
+{ "_id" : ObjectId("64a3efb782af6cb5a902c6a2"), "nombre" : "Raul" }
+{ "_id" : ObjectId("64a3efb782af6cb5a902c6a3"), "nombre" : "Ana" }
+-----------------------
+Colección: gafas
+{
+	"_id" : {
+		"code" : "function ObjectId() {\n    [native code]\n}"
+	},
+	"grad_der" : 2.1,
+	"grad_izq" : 1.1,
+	"montura" : "pasta",
+	"color_crist_der" : "blanco",
+	"color_crist_izq" : "blanco",
+	"color_montura" : "marron",
+	"precio" : 90.5,
+	"empleado_id" : "64a3efb782af6cb5a902c6a2",
+	"marcas_id" : "64a3f52770b9afebcf2d38d8",
+	"cliente_id" : "64a3f14c82af6cb5a902c6a5"
+}
+{
+	"_id" : ObjectId("64a3f89270b9afebcf2d38da"),
+	"grad_der" : 2.5,
+	"grad_izq" : 3.2,
+	"montura" : "pasta",
+	"color_crist_der" : "blanco",
+	"color_crist_izq" : "blanco",
+	"color_montura" : "marron",
+	"precio" : 105.9,
+	"empleado_id" : "64a3efb782af6cb5a902c6a3",
+	"marcas_id" : "64a3f52770b9afebcf2d38d9",
+	"cliente_id" : "64a3f14c82af6cb5a902c6a6"
+}
+-----------------------
+Colección: marcas
+{
+	"_id" : ObjectId("64a3f52770b9afebcf2d38d8"),
+	"nombre" : "Lays",
+	"proveedor_id" : "64a3f47270b9afebcf2d38d6"
+}
+{
+	"_id" : ObjectId("64a3f52770b9afebcf2d38d9"),
+	"nombre" : "Prima",
+	"proveedor_id" : "64a3f47270b9afebcf2d38d7"
+}
+-----------------------
+Colección: proveedor
+{
+	"_id" : ObjectId("64a3f47270b9afebcf2d38d6"),
+	"nombre" : "frutasYverduras s.l",
+	"direccion" : "calle xx numero 2, 07882. Madrid",
+	"telefono" : "637493826",
+	"fax" : "7465x6x5xx4x",
+	"nif" : "75648735R"
+}
+{
+	"_id" : ObjectId("64a3f47270b9afebcf2d38d7"),
+	"nombre" : "patatas s.l",
+	"direccion" : "calle gddy  numero 57, 89665. Madrid",
+	"telefono" : "648372625",
+	"fax" : "625x6x6x5x4",
+	"nif" : "83746353G"
+}
+-----------------------
+
+PIZZERIA:
 
 Contenido de la colección: categoria
 { "_id" : ObjectId("64a082df8efe07d3a219e8c1"), "nombre" : "marguerita" }
@@ -168,7 +255,7 @@ Contenido de la colección: tienda
 
 
 
-YOUTUBE
+YOUTUBE:
 
 Contenido de la colección: Canal
 {
@@ -255,7 +342,7 @@ Contenido de la colección: playlist
 }
 ------------------------------------
 
-SPOTIFY
+SPOTIFY:
 
 Contenido de la colección: album
 {
