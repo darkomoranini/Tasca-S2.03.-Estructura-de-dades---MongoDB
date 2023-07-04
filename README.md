@@ -213,8 +213,6 @@ Contenido de la colección: pizza
 	"categoria" : ObjectId("64a082df8efe07d3a219e8c1")
 }
 ------------------------------------
-Contenido de la colección: producto
-------------------------------------
 Contenido de la colección: productos
 {
 	"_id" : ObjectId("64a082708efe07d3a219e8c0"),
